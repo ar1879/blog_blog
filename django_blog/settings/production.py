@@ -6,8 +6,12 @@ from .base import *
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd2j87ttqq01e8a',
+        'USER': 'whposopeyaynyu',
+        'PASSWORD': 'be6ae783079626a932a18cea1201467ea92be0adeb78d76e60fbacd94820091a',
+        'HOST': 'ec2-52-4-104-184.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
