@@ -20,3 +20,5 @@ DATABASES = {
 DEBUG = True
 
 ALLOWED_HOSTS = ['djangoblogdev13.herokuapp.com']
+
+STATICFILES_DIRS = (BASE_DIR, 'static')
