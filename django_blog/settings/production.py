@@ -15,4 +15,4 @@ DATABASES = {
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://djangoblogdev13.herokuapp.com/']
+ALLOWED_HOSTS = ['djangoblogdev13.herokuapp.com']
