@@ -1,5 +1,5 @@
 
-from pyexpat import model
+
 from django.contrib import admin
 
 from . models import *
@@ -30,6 +30,8 @@ class AutorAdmin(ImportExportModelAdmin,admin.ModelAdmin):
     search_fields = ['nombres', 'apellidos', 'email']
     list_display = ['nombres', 'apellidos', 'email', 'estado', 'fecha_creacion']
     resource_class = AutorResource
+
+#############################################################################
 
 class PostResource(resources.ModelResource):
     class Meta:
