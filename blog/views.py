@@ -6,6 +6,7 @@ from django.core.paginator import Paginator
 # Create your views here.
 
 def home(request):
+    #la variable queryset es arbitraraia ya que la cambiamos para hacer pruebas y siguio funcionando
     queryset = request.GET.get('buscar')#buscar hace referencia a el parametro name del index.html nombrado de la misma manera
     print(queryset)#aqui estamos pidiendo ver lo que se le esta pasando como parametro al GET
     post = Post.objects.filter(estado = True)
